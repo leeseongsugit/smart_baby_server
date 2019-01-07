@@ -17,6 +17,9 @@ public class Member {
 	private String userId;
 //	@NotEmpty(message="필수 항목입니다.")
 	private String password;
+	
+//	private String salt;		// demo type 개발 완료 후 추가 설정
+	
 //	@NotEmpty(message="필수 항목입니다.")
 	private String parName;
 	private String parBirth;
