@@ -1,6 +1,7 @@
 package iot.project.smart_baby.dao;
 
 import java.util.List;
+import java.util.Map;
 
 public interface CrudDao<M, K> {
 	
@@ -12,6 +13,7 @@ public interface CrudDao<M, K> {
 	M findById(K k) throws Exception;
 	List<M> getList() throws Exception;
 	List<M> getPage() throws Exception;
+	List<M> getPage(Map map) throws Exception;
 	
 //	Update (DML : UPDATE)
 	int update(M m) throws Exception;
