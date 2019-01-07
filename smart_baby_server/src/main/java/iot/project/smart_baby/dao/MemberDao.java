@@ -6,8 +6,8 @@ import iot.project.smart_baby.model.Member;
 
 public interface MemberDao extends CrudDao<Member, String>{
 	
-//	Ãß°¡ °³¹ß
-//	Member findByParName(String parName) throws Exception;	: ID Ã£±â
-//	int changePassword(Map<String, String> map) throws Exception;	: ºñ¹Ðº¯È£ º¯°æ
+//	ì¶”ê°€ ê°œë°œìš©
+//	Member findByParName(String parName) throws Exception;	: ID ì°¾ê¸°
+//	int changePassword(Map<String, String> map) throws Exception;	: ë¹„ë°€ë²ˆí˜¸ ë³€ê²½
 
 }

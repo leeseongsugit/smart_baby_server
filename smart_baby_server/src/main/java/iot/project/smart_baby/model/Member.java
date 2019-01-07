@@ -12,22 +12,22 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class Member {
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
-//	@Length(min=4, message="4±ÛÀÚ ÀÌ»ó ÀÔ·ÂÇÏ¼¼¿ä.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
+//	@Length(min=4, message="4ê¸€ì ì´ìƒ ì…ë ¥í•˜ì„¸ìš”.")
 	private String userId;
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
 	private String password;
 	
-//	private String salt;		// demo type °³¹ß ¿Ï·á ÈÄ Ãß°¡ °³¹ß
+//	private String salt;		// demo type ê°œë°œ ì™„ë£Œ í›„ ì¶”ê°€ ê°œë°œ ì‚¬í•­
 	
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
 	private String parName;
 	private String parBirth;
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
 	private String babyName;
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
 	private Date babyBirth;
-//	@NotEmpty(message="ÇÊ¼ö Ç×¸ñÀÔ´Ï´Ù.")
+//	@NotEmpty(message="í•„ìˆ˜ í•­ëª©ì…ë‹ˆë‹¤.")
 	private String email;
 	private Date regDate;
 	private Date updateDate;
