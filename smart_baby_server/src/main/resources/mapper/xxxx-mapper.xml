@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="iot.project.smart_baby.dao.MemberDao">
+
+	<!-- Create : insert -->
+	<insert id="insert" parameterType=""><![CDATA[
+	
+	]]></insert>
+
+
+	<!-- Read : select -->
+	<select id="count" resultType="int"><![CDATA[
+		select count(*) from member
+	]]></select>
+	
+	<select id="getList" resultType="Member"><![CDATA[
+		select * from member
+	]]></select>
+
+	<select id="findById" parameterType="String" resultType="Member"><![CDATA[
+	
+	]]></select>
+
+	<select id="getPage" parameterType="Map" resultType="Member"><![CDATA[
+	
+	]]></select>
+
+
+	<!-- Update : update -->
+	<update id="update" parameterType=""><![CDATA[
+	
+	]]></update>
+
+
+	<!-- Delete :delete -->
+	<delete id="delete" parameterType=""><![CDATA[
+	
+	]]></delete>
+
+
+</mapper>

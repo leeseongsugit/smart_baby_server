@@ -10,9 +10,8 @@ public interface CrudDao<M, K> {
 	
 //	Read (DML : SELECT)
 	int count() throws Exception;
-	M findById(K k) throws Exception;
 	List<M> getList() throws Exception;
-	List<M> getPage() throws Exception;
+	M findById(K k) throws Exception;
 	List<M> getPage(Map map) throws Exception;
 	
 //	Update (DML : UPDATE)

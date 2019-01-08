@@ -25,6 +25,7 @@ public class Member {
 	
 	@NotEmpty(message="필수 항목입니다.")
 	private String parName;
+	@NotEmpty(message="필수 항목입니다.")
 	private String parBirth;
 	@NotEmpty(message="필수 항목입니다.")
 	private String babyName;
